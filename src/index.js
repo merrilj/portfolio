@@ -4,6 +4,7 @@ import Home from './components/Home.js'
 import ApolloClient, { createNetworkInterface } from 'apollo-client'
 import { ApolloProvider } from 'react-apollo'
 import { Router, Route, browserHistory } from 'react-router'
+
 import './index.css'
 
 const client = new ApolloClient({
