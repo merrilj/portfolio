@@ -3,7 +3,7 @@ import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 
 
-export class ProjectIndex extends Component {
+export class ProjectDex extends Component {
 
 
     static propTypes = {
@@ -38,7 +38,7 @@ export class ProjectIndex extends Component {
             return (<div>An unexpected error occurred</div>)
         }
 
-        const projectItems = this.props.data.allProjects.map((project) => {
+        const porjectItems = this.props.data.allProjects.map((project) => {
 
             let tagsArray = []
             project.tags.map((tag, index) => {
@@ -82,11 +82,11 @@ export class ProjectIndex extends Component {
         return (
             <div className="projects-height">
                 <div className="projects-container">
-                    {projectItems}
+                    {porjectItems}
                     <section className="social-icons-row-projects">
                         <a href="https://github.com/merrilj" target="_blank"><img className="social-icon float" src="img/git.svg" alt="github logo img" /></a>
-                        <a href="" target="_blank"><img className="social-icon float" src="img/ig.svg" alt="instagram logo img" /></a>
-                        <a href="https://www.linkedin.com/in/merrilj" target="_blank"><img className="social-icon float" src="img/in.svg" alt="linkedin logo img" /></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img className="social-icon float" src="img/ig.svg" alt="instagram logo img" /></a>
+                        <a href="https://www.linkedin.com/in/merrilj/" target="_blank"><img className="social-icon float" src="img/in.svg" alt="linkedin logo img" /></a>
                     </section>
                 </div>
             </div>
@@ -129,7 +129,7 @@ const ProjectQuery = gql`
                 type: ownProps.type
             }
         })
-    })(ProjectIndex)
+    })(ProjectDex)
 
 export default ProjectDexWithData
 
