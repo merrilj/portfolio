@@ -72,10 +72,10 @@ export default class Home extends Component {
                             </div>
                             <div id="myDropdown" className={toggleDropdown}>
                                 <a onClick={this._filterProjectsType}>All</a>
-                                <a onClick={this._filterProjectsType}>Full-stack</a>
-                                <a onClick={this._filterProjectsType}>Front-end</a>
-                                <a onClick={this._filterProjectsType}>Web app</a>
-                                <a onClick={this._filterProjectsType}>Mobile app</a>
+                                <a onClick={this._filterProjectsType}>Full Stack</a>
+                                <a onClick={this._filterProjectsType}>Front End</a>
+                                <a onClick={this._filterProjectsType}>Web App</a>
+                                <a onClick={this._filterProjectsType}>Mobile App</a>
                             </div>
                     </span>
                 </div>
@@ -83,7 +83,7 @@ export default class Home extends Component {
         else if(this.state.view === "Resume")
         return (
             <div className="nav-extra-text">
-                <a className="download-button active" href="img/Jeff-Diers-Resume.pdf" download>Download</a>
+                <a className="download-button active" href="imgs/Merril-Jeffs-Resume.pdf" download>Download</a>
             </div>
         )
         else
@@ -141,7 +141,7 @@ export default class Home extends Component {
                 return (
                    <div className="splash-height">
                         <div className="resume-container">
-                            <img className="resume-img" src="img/Merril Jeffs Resume.jpg" alt="resume img"></img>
+                            <img className="resume-img" src="imgs/Merril-Jeffs-Resume.pdf" alt="resume img"></img>
                         </div>
                     </div>
                 )
