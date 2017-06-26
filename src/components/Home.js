@@ -115,7 +115,7 @@ export default class Home extends Component {
                                 <p>
                                     Drop me a line <br />
                                   <a className="contactlink" href="tel:720-397-0410">720-397-0410</a> <br />
-                                    <a className="contactlink" href="mailto:merrilj@zoho.com?Subject=Hello%20friend" target="_top">merrilj@zoho.com</a> <br />
+                                    <a className="contactlink" href="mailto:merrilj@zoho.com?Subject=You%20Are%20Hired!" target="_top">merrilj@zoho.com</a> <br />
                                 </p>
                             </div>
                         </section>
@@ -124,9 +124,10 @@ export default class Home extends Component {
                         </section>
                     </div>
                     <section className="social-icons-row-main">
-                        <a href="https://github.com/merrilj" target="_blank"><img className="social-icon float" src="img/git.svg" alt="github logo img" /></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img className="social-icon float" src="img/ig.svg" alt="instagram logo img" /></a>
-                        <a href="https://www.linkedin.com/in/merrilj/" target="_blank"><img className="social-icon float" src="img/in.svg" alt="linkedin logo img" /></a>
+                        <a href="https://github.com/merrilj" target="_blank"><i className="social-icon float fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/merrilj/" target="_blank"><i className="social-icon float fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="mailto:merrilj@zoho.com?Subject=You%20Are%20Hired!"><i className="social-icon float fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="tel:+1-720-397-0410"><i className="social-icon float fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
                     </section>
 
                 </div>
@@ -191,6 +192,3 @@ export default class Home extends Component {
 
     }
 }
-
-
-                            // <iframe src="https://indd.adobe.com/view/f0a5f958-58b7-4320-825c-ae3b8b030e71" width="100%" height="90%" />

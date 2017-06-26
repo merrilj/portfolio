@@ -84,9 +84,10 @@ export class ProjectDex extends Component {
                 <div className="projects-container">
                     {porjectItems}
                     <section className="social-icons-row-projects">
-                        <a href="https://github.com/merrilj" target="_blank"><img className="social-icon float" src="img/git.svg" alt="github logo img" /></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img className="social-icon float" src="img/ig.svg" alt="instagram logo img" /></a>
-                        <a href="https://www.linkedin.com/in/merrilj/" target="_blank"><img className="social-icon float" src="img/in.svg" alt="linkedin logo img" /></a>
+                      <a href="https://github.com/merrilj" target="_blank"><i className="proj-icons social-icon float fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="https://www.linkedin.com/in/merrilj/" target="_blank"><i className="proj-icons social-icon float fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="mailto:merrilj@zoho.com?Subject=You%20Are%20Hired!"><i className="proj-icons social-icon float fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+                      <a href="tel:+1-720-397-0410"><i className="proj-icons social-icon float fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
                     </section>
                 </div>
             </div>
