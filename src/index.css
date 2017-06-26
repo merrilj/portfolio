@@ -266,7 +266,29 @@ nav.onhome .globalnav-item {
   }
 }
 
+.fa-github-square {
+  color: #fff;
+  padding: 5px;
+}
 
+.fa-linkedin-square {
+  color: #fff;
+  padding: 5px;
+}
+
+.fa-envelope-square {
+  color: #fff;
+  padding: 5px;
+}
+
+.fa-phone-square {
+  color: #fff;
+  padding: 5px;
+}
+
+.proj-icons {
+  color: #23B9CD;
+}
 
 /********************************************************/
 /****************** Main Page Styling *******************/
@@ -360,6 +382,7 @@ img.social-icon {
   width: 30px;
   margin: 0 10px 0 10px;
   opacity: .98;
+  color: #fff;
 }
 
 .float {
