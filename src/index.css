@@ -29,7 +29,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   text-rendering: optimizeLegibility;
   color: var(--brand-color-text);
   background-color: #fff;
@@ -40,8 +40,8 @@ body {
 }
 
 h1.hero-headline {
-  font-family: 'Georgia', sans-serif;
-  /*text-shadow: 1px 1px 0px #DB504A*/
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.2em;
 }
 
 img.my-logo {
@@ -334,7 +334,7 @@ nav.onhome .globalnav-item {
 .hero-copy {
   line-height: 1.25;
   margin: 1em 0 0;
-  font-size: 11pt;
+  font-size: 13pt;
 }
 
 .contactlink {
