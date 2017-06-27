@@ -106,21 +106,18 @@ export default class Home extends Component {
                             </h1>
                             <div className="hero-copy">
                                 <p>
-                                    Full Stack Developer. Denver, CO.
+                                    Software Developer. Denver, CO.
                                 </p>
                                 <p>
-                                    Currently looking for full-time employment. <br />
-                                    I am a Full Stack Developer who combines an aesthetic sensibility with a deep understanding of the code to create applications that look as well as they work.
+                                  I am a Full Stack Developer currently looking to harness my ultimate passion of development in aerospace and travel with full-time employment.
                                 </p>
                                 <p>
-                                    Drop me a line <br />
-                                  <a className="contactlink" href="tel:720-397-0410">720-397-0410</a> <br />
-                                    <a className="contactlink" href="mailto:merrilj@zoho.com?Subject=You%20Are%20Hired!" target="_top">merrilj@zoho.com</a> <br />
+                                    If you fly or write software find me below <i className="fa fa-hand-o-down" aria-hidden="true"></i>
                                 </p>
                             </div>
                         </section>
                         <section className="bang">
-                            <img className="logo" src="imgs/merril.jpg" alt="personal logo img" />
+                            <img className="logo" src="img" alt="personal logo img" />
                         </section>
                     </div>
                     <section className="social-icons-row-main">
@@ -142,7 +139,9 @@ export default class Home extends Component {
                 return (
                    <div className="splash-height">
                         <div className="resume-container">
-                            <img className="resume-img" src="imgs/Merril-Jeffs-Resume.pdf" alt="resume img"></img>
+                          <object className="resume-img" data={require("../../public/imgs/Merril-Jeffs-Resume.pdf")} type="application/pdf">
+                            alt : <a href="../../public/imgs/Merril-Jeffs-Resume.pdf">resume.pdf</a>
+                          </object>
                         </div>
                     </div>
                 )

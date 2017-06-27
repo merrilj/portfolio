@@ -630,6 +630,8 @@ a.project-button:hover {
 .resume-img {
   margin-top: 24px;
   width: 92%;
+  height: 1150px;
+  margin-bottom: 24px;
 }
 
 .download-container {
